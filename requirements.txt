@@ -1,0 +1,27 @@
+# Python dependencies for Satellite Dataset Generation Project
+# Install with: pip install -r requirements.txt
+
+# Data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Google Earth Engine Python API (REQUIRED)
+earthengine-api>=0.1.380
+
+# Google Drive API for automated export download
+google-api-python-client>=2.100.0
+google-auth-httplib2>=0.1.1
+google-auth-oauthlib>=1.1.0
+
+# Data validation
+jsonschema>=4.17.0
+
+# Visualization (optional, for data exploration)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Progress tracking
+tqdm>=4.65.0
+
+# Configuration
+python-dotenv>=1.0.0

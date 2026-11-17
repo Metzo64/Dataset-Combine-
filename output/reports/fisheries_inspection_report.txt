@@ -1,0 +1,102 @@
+================================================================================
+FISHERIES DATASET INSPECTION REPORT
+================================================================================
+
+File: D:\Projects\Projects\maj maj\fisheries_25000.csv
+Inspection Date: 2026-11-16 23:28:11
+Total Records: 25,000
+Total Columns: 18
+
+--------------------------------------------------------------------------------
+1. COLUMNS
+--------------------------------------------------------------------------------
+
+ 1. fisheries_record_id
+ 2. callsign
+ 3. dataset
+ 4. date
+ 5. entryTimestamp
+ 6. exitTimestamp
+ 7. firstTransmissionDate
+ 8. flag
+ 9. geartype
+10. hours
+11. imo
+12. lastTransmissionDate
+13. lat
+14. lon
+15. mmsi
+16. shipName
+17. vesselId
+18. vesselType
+
+--------------------------------------------------------------------------------
+2. MISSING VALUES
+--------------------------------------------------------------------------------
+
+Column                         Missing    %         
+--------------------------------------------------
+fisheries_record_id            0          0.00      
+callsign                       5045       20.18     
+dataset                        0          0.00      
+date                           0          0.00      
+entryTimestamp                 0          0.00      
+exitTimestamp                  0          0.00      
+firstTransmissionDate          0          0.00      
+flag                           556        2.22      
+geartype                       269        1.08      
+hours                          0          0.00      
+imo                            22922      91.69     
+lastTransmissionDate           0          0.00      
+lat                            0          0.00      
+lon                            0          0.00      
+mmsi                           0          0.00      
+shipName                       444        1.78      
+vesselId                       0          0.00      
+vesselType                     0          0.00      
+
+--------------------------------------------------------------------------------
+3. TEMPORAL ANALYSIS
+--------------------------------------------------------------------------------
+
+Date Range: 2015-01-01 to 2024-12-30
+Duration: 3,651 days
+Invalid Dates: 0
+
+Year Distribution:
+  2015: 2,500 records ( 10.0%)
+  2016: 2,500 records ( 10.0%)
+  2017: 2,500 records ( 10.0%)
+  2018: 2,500 records ( 10.0%)
+  2019: 2,500 records ( 10.0%)
+  2020: 2,500 records ( 10.0%)
+  2021: 2,500 records ( 10.0%)
+  2022: 2,500 records ( 10.0%)
+  2023: 2,500 records ( 10.0%)
+  2024: 2,500 records ( 10.0%)
+
+Unique Year-Months: 120 / 120 expected
+
+--------------------------------------------------------------------------------
+4. GEOGRAPHICAL ANALYSIS
+--------------------------------------------------------------------------------
+
+Latitude Range:  0.000000 to 29.600000
+Longitude Range: 50.000000 to 100.000000
+
+Study Area Compliance:
+  Inside:  25,000 records
+  Outside: 0 records
+
+--------------------------------------------------------------------------------
+5. QUALITY CHECKS
+--------------------------------------------------------------------------------
+
+Unique Record IDs: 25,000
+Duplicate Record IDs: 0
+Exact Duplicate Rows: 0
+Duplicate Date-Coords: 274
+
+================================================================================
+END OF REPORT
+================================================================================

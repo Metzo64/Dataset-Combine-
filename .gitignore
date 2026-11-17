@@ -1,0 +1,97 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+logs/*.log
+*.log
+
+# Output files (keep structure, ignore data)
+output/satellite_exports/*.csv
+output/final/*.csv
+!output/satellite_exports/.gitkeep
+!output/final/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Google Earth Engine credentials
+.config/earthengine/
+*credentials*.json
+*service-account*.json
+
+# Sensitive files
+.env
+.env.*
+*.key
+*.pem
+*secret*
+*token*
+*password*
+
+# Large data files
+oceanography_30000.csv
+fisheries_25000.csv
+satellite_25000.csv
+
+# Keep output structure but ignore large generated files
+output/satellite_exports/*.csv
+!output/satellite_exports/.gitkeep
+output/final/*.csv
+!output/final/.gitkeep
+
+# Temporary investigation scripts
+check_*.py
+verify_*.py
+diagnose_*.py
+create_*.py
+remove_*.py
+investigate_*.py
+
+# Large logs
+logs/*.log
+!logs/.gitkeep

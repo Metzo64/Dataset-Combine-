@@ -1,0 +1,6 @@
+# Place GEE export CSV files here
+# Expected files:
+#   satellite_2015.csv
+#   satellite_2016.csv
+#   ...
+#   satellite_2024.csv
